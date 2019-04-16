@@ -1,3 +1,4 @@
 #!/bin/bash
+sudo su
 apt install nginx > /var/log/installnginx.out 2>&1 
 
