@@ -1,4 +1,8 @@
 #!/bin/bash
-sudo su
-apt install nginx > /var/log/installnginx.out 2>&1 
+composer install
+cd /var/www/html
+cp .env.example .env 
+php artisan key:generate 
+
+
 
