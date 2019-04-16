@@ -11,12 +11,3 @@ permissions:
      mode: 755
      type:
        - file
-hooks:
-   BeforeInstall:
-    - location: scripts/installapache
-      runas: ubuntu
-    - location: scripts/startapache.sh
-      runas: ubuntu
-   AfterInstall:
-    - location: scripts/restartapache.sh
-      runas: ubuntu
