@@ -12,7 +12,7 @@ permissions:
      type:
        - file
 hooks:
-   BeforeInstall:
+   AfterInstall:
     - location: scripts/installapache
       runas: root
     
