@@ -12,6 +12,6 @@ cp config .env
 
 
 php artisan key:generate 
-php artisan migrate:refresh
+php artisan migrate
 
 
