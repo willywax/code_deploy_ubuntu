@@ -11,9 +11,9 @@ permissions:
      mode: 755
      type:
        - file
-hooks:
-   AfterInstall:
-    - location: scripts/installapache
-      runas: root
+# hooks:
+#    AfterInstall:
+#     - location: scripts/installapache
+#       runas: root
     
 
