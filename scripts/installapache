@@ -1,6 +1,5 @@
 #!/bin/bash
-composer install
-cd /var/www/html
+cd ..
 cp .env.example .env 
 php artisan key:generate 
 
