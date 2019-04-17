@@ -8,7 +8,7 @@ permissions:
      pattern: "**"
      owner: ubuntu
      group: ubuntu
-     mode: 777
+     mode: 755
      type:
        - directory
 
@@ -16,7 +16,7 @@ permissions:
      pattern: "**"
      owner: ubuntu
      group: ubuntu
-     mode: 777
+     mode: 755
      type:
        - file
 
