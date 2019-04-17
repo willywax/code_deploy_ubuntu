@@ -2,16 +2,27 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
+     destination: /var/www/html/laravel
 permissions:
-   - object: /var/www
+   - object: /var/www/html
      pattern: "**"
      owner: ubuntu
      group: ubuntu
      mode: 755
      type:
-       - file
        - directory
+  
+   - object: /var/www/html/laravel
+     pattern: "**"
+     owner: ubuntu
+     group: ubuntu
+     mode: 755
+     type:
+       - directory
+       - file 
+
+
+
 # hooks:
 #    AfterInstall:
 #     - location: scripts/installapache
