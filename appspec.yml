@@ -11,6 +11,7 @@ permissions:
      mode: 755
      type:
        - file
+       - directory
 # hooks:
 #    AfterInstall:
 #     - location: scripts/installapache
