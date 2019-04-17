@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ..
+echo pwd
 composer install 
 cp .env.example .env 
 php artisan key:generate 
