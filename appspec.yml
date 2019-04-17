@@ -16,6 +16,6 @@ permissions:
 hooks:
    AfterInstall:
     - location: scripts/installapache
-      runas: root
+      runas: ubuntu
     
 
