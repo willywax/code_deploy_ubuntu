@@ -18,7 +18,7 @@ hooks:
     - location: scripts/beforeInstall
       runas: root
    AfterInstall:
-    - location: scripts/installapache
+    - location: scripts/afterInstall
       runas: ubuntu
     
 
