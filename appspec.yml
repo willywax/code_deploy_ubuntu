@@ -13,10 +13,9 @@ permissions:
        - directory
        - file
 
-
-# hooks:
-#    AfterInstall:
-#     - location: scripts/installapache
-#       runas: root
+hooks:
+   AfterInstall:
+    - location: scripts/installapache
+      runas: root
     
 
